@@ -1,0 +1,82 @@
+@media (max-width: 676px) {
+    main {
+        margin: 20px 0px;
+    }
+    .header__list {
+        justify-content: center;
+        margin: 0;
+    }
+    .about {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+        &__title {
+            font-size: 32px;
+            line-height: 40px;
+        }
+        &__subtitle {
+            margin: 20px 0px;
+        }
+        &__image {
+            img {
+                width: 175px;
+                height: 175px;
+            }
+        }
+    }
+    .post {
+        &__container {
+            padding: 20px 15px 10px;
+        }
+        &__info {
+            justify-content: center;
+            a {
+                display: none;
+            }
+        }
+        &__link {
+            display: none;
+        }
+        &__box {
+            flex-direction: column;
+            gap: 0;
+            .box {
+                h4 {
+                    font-size: 22px;
+                    line-height: 30px;
+                }
+                &__info {
+                    span {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+    .works {
+        &__head {
+            text-align: center;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+        &__block {
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+            text-align: center;
+        }
+        h3 {
+            font-size: 24px;
+            margin-bottom: 0px;
+        }
+        .block__year {
+            font-size: 15px;
+            margin-bottom: 10px;
+        }
+        .block__theme {
+            font-size: 16px;
+        }
+    }
+}
