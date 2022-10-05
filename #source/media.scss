@@ -18,38 +18,34 @@
         &__subtitle {
             margin: 20px 0px;
         }
-        &__image {
-            img {
-                width: 175px;
-                height: 175px;
-            }
+        &__img {
+            width: 175px;
+            height: 175px;
         }
     }
     .post {
         &__container {
             padding: 20px 15px 10px;
         }
-        &__info {
+        &__block {
             justify-content: center;
-            a {
-                display: none;
-            }
         }
         &__link {
             display: none;
+        }
+        &__info {
+            text-align: center;
         }
         &__box {
             flex-direction: column;
             gap: 0;
             .box {
-                h4 {
+                &__title {
                     font-size: 22px;
                     line-height: 30px;
                 }
                 &__info {
-                    span {
-                        font-size: 16px;
-                    }
+                    font-size: 16px;
                 }
             }
         }
@@ -67,7 +63,7 @@
             gap: 20px;
             text-align: center;
         }
-        h3 {
+        .block__title {
             font-size: 24px;
             margin-bottom: 0px;
         }

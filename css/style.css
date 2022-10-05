@@ -342,7 +342,7 @@ main {
   .about__subtitle {
     margin: 20px 0px;
   }
-  .about__image img {
+  .about__img {
     width: 175px;
     height: 175px;
   }
@@ -350,16 +350,16 @@ main {
   .post__container {
     padding: 20px 15px 10px;
   }
-  .post__info {
+  .post__block {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .post__info a {
-    display: none;
-  }
   .post__link {
     display: none;
+  }
+  .post__info {
+    text-align: center;
   }
   .post__box {
     -webkit-box-orient: vertical;
@@ -368,11 +368,11 @@ main {
             flex-direction: column;
     gap: 0;
   }
-  .post__box .box h4 {
+  .post__box .box__title {
     font-size: 22px;
     line-height: 30px;
   }
-  .post__box .box__info span {
+  .post__box .box__info {
     font-size: 16px;
   }
 
@@ -395,7 +395,7 @@ main {
     gap: 20px;
     text-align: center;
   }
-  .works h3 {
+  .works .block__title {
     font-size: 24px;
     margin-bottom: 0px;
   }
