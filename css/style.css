@@ -113,6 +113,9 @@ main {
 .header__link {
   color: inherit;
 }
+.header__link:hover {
+  text-decoration: underline;
+}
 .header__burger {
   display: none;
 }
@@ -147,6 +150,9 @@ main {
   font-size: 20px;
   color: white;
   border-radius: 2px;
+}
+.about__button:hover {
+  background-color: #FF7777;
 }
 .about__image img {
   width: 250px;
@@ -277,6 +283,11 @@ main {
   display: flex;
   gap: 35px;
   margin: 25px 0px;
+}
+.footer__list img:hover {
+  width: 110%;
+  -webkit-transform: translate(0.4s);
+          transform: translate(0.4s);
 }
 .footer__text {
   font-size: 14px;
