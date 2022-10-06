@@ -361,18 +361,18 @@ main {
   .post__info {
     text-align: center;
   }
-  .post__box {
+  .post__row {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
     gap: 0;
   }
-  .post__box .box__title {
+  .post__row .row-block__title {
     font-size: 22px;
     line-height: 30px;
   }
-  .post__box .box__info {
+  .post__row .row-block__info {
     font-size: 16px;
   }
 
@@ -395,15 +395,15 @@ main {
     gap: 20px;
     text-align: center;
   }
-  .works .block__title {
+  .works .project__title {
     font-size: 24px;
     margin-bottom: 0px;
   }
-  .works .block__year {
+  .works .project__year {
     font-size: 15px;
     margin-bottom: 10px;
   }
-  .works .block__theme {
+  .works .project__theme {
     font-size: 16px;
   }
 }
