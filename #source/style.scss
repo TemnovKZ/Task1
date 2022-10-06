@@ -257,6 +257,10 @@ main {
         display: flex;
         gap: 35px;
         margin: 25px 0px;
+        img {
+            height: 30px;
+            width: 30px;
+        }
         img:hover {
             opacity: 0.8;
         }

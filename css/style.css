@@ -304,6 +304,10 @@ main {
   gap: 35px;
   margin: 25px 0px;
 }
+.footer__list img {
+  height: 30px;
+  width: 30px;
+}
 .footer__list img:hover {
   opacity: 0.8;
 }
