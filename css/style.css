@@ -188,7 +188,7 @@ main {
 .post__link:hover {
   text-decoration: underline;
 }
-.post__box {
+.post__row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -200,24 +200,24 @@ main {
           align-items: center;
   gap: 20px;
 }
-.post__box .box {
+.post__row .row-block {
   max-width: 444px;
   background-color: white;
   margin-bottom: 15px;
   padding: 23px;
 }
-.post__box .box__title {
+.post__row .row-block__title {
   font-size: 26px;
   font-weight: 700;
   line-height: 38px;
 }
-.post__box .box__title-inherit {
+.post__row .row-block__title-inherit {
   color: inherit;
 }
-.post__box .box__title:hover {
+.post__row .row-block__title:hover {
   text-decoration: underline;
 }
-.post__box .box__info {
+.post__row .row-block__info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -225,7 +225,7 @@ main {
   gap: 30px;
   font-size: 18px;
 }
-.post__box .box__text {
+.post__row .row-block__text {
   font-size: 16px;
   line-height: 23.5px;
 }
@@ -249,28 +249,28 @@ main {
   gap: 20px;
   margin: 20px 0px;
 }
-.works__block .block__image-cover {
+.works .project__image-cover {
   width: 246px;
   height: 180px;
   border-radius: 6px;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.works__block .block__title {
+.works .project__title {
   font-size: 30px;
   font-weight: 700;
   line-height: 44px;
   margin-bottom: 15px;
   opacity: 0.8;
 }
-.works__block .block__title-inherit {
+.works .project__title-inherit {
   color: inherit;
 }
-.works__block .block__title:hover {
-  font-size: 31px;
+.works .project__title:hover {
   opacity: 1;
+  text-decoration: underline;
 }
-.works__block .block__year {
+.works .project__year {
   display: inline-block;
   border: 1px solid #142850;
   background-color: #142850;
@@ -282,12 +282,12 @@ main {
   margin-right: 26px;
   margin-bottom: 25px;
 }
-.works__block .block__theme {
+.works .project__theme {
   font-size: 20px;
   font-weight: 300;
   color: #8695A4;
 }
-.works__block .block__text {
+.works .project__text {
   line-height: 23.5px;
 }
 
