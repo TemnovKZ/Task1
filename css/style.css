@@ -200,24 +200,24 @@ main {
           align-items: center;
   gap: 20px;
 }
-.post__row .row-block {
+.post__row .recent {
   max-width: 444px;
   background-color: white;
   margin-bottom: 15px;
   padding: 23px;
 }
-.post__row .row-block__title {
+.post__row .recent__title {
   font-size: 26px;
   font-weight: 700;
   line-height: 38px;
 }
-.post__row .row-block__title-inherit {
+.post__row .recent__title-inherit {
   color: inherit;
 }
-.post__row .row-block__title:hover {
+.post__row .recent__title:hover {
   text-decoration: underline;
 }
-.post__row .row-block__info {
+.post__row .recent__info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -225,9 +225,12 @@ main {
   gap: 30px;
   font-size: 18px;
 }
-.post__row .row-block__text {
+.post__row .recent__text {
   font-size: 16px;
   line-height: 23.5px;
+}
+.post__row .recent__inherit {
+  color: inherit;
 }
 
 /*-----------------------WORKS----------------------*/

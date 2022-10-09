@@ -141,7 +141,7 @@ main {
         align-items: center;
         gap: 20px;
 
-        .row-block {
+        .recent {
             max-width: 444px;
             background-color: white;
             margin-bottom: 15px;
@@ -168,6 +168,9 @@ main {
             &__text {
                 font-size: 16px;
                 line-height: 23.5px;
+            }
+            &__inherit {
+                color: inherit;
             }
         }
     }
