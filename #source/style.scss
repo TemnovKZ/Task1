@@ -152,9 +152,6 @@ main {
         font-size: 26px;
         font-weight: 700;
         line-height: 38px;
-        &-inherit {
-            color: inherit;
-        }
     }
     &__title:hover {
         text-decoration: underline;
@@ -260,14 +257,15 @@ main {
         display: flex;
         gap: 35px;
         margin: 25px 0px;
-        img {
-            height: 30px;
-            width: 30px;
-        }
+	}
+
+    &__img {
+        height: 30px;
+        width: 30px;
         img:hover {
             opacity: 0.8;
         }
-	}
+    }
 
 	&__text {
         font-size: 14px;

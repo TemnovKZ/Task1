@@ -212,9 +212,6 @@ main {
   font-weight: 700;
   line-height: 38px;
 }
-.recent__title-inherit {
-  color: inherit;
-}
 .recent__title:hover {
   text-decoration: underline;
 }
@@ -309,11 +306,11 @@ main {
   gap: 35px;
   margin: 25px 0px;
 }
-.footer__list img {
+.footer__img {
   height: 30px;
   width: 30px;
 }
-.footer__list img:hover {
+.footer__img img:hover {
   opacity: 0.8;
 }
 .footer__text {
