@@ -39,15 +39,15 @@
         &__row {
             flex-direction: column;
             gap: 0;
-            .recent {
-                &__title {
-                    font-size: 22px;
-                    line-height: 30px;
-                }
-                &__info {
-                    font-size: 16px;
-                }
-            }
+        }
+    }
+    .recent {
+        &__title {
+            font-size: 22px;
+            line-height: 30px;
+        }
+        &__info {
+            font-size: 16px;
         }
     }
     .works {
@@ -63,16 +63,16 @@
             gap: 20px;
             text-align: center;
         }
-        .project__title {
-            font-size: 24px;
-            margin-bottom: 0px;
-        }
-        .project__year {
-            font-size: 15px;
-            margin-bottom: 10px;
-        }
-        .project__theme {
-            font-size: 16px;
-        }
+    }
+    .project__title {
+        font-size: 24px;
+        margin-bottom: 0px;
+    }
+    .project__year {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .project__theme {
+        font-size: 16px;
     }
 }
