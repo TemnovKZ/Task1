@@ -141,7 +141,7 @@ main {
         align-items: center;
         gap: 20px;
 
-        .row-block {
+        .recent {
             max-width: 444px;
             background-color: white;
             margin-bottom: 15px;
@@ -168,6 +168,9 @@ main {
             &__text {
                 font-size: 16px;
                 line-height: 23.5px;
+            }
+            &__inherit {
+                color: inherit;
             }
         }
     }
@@ -197,13 +200,11 @@ main {
     }
     .project {
 
-        &__image {
-            &-cover {
-                width: 246px;
-                height: 180px;
-                border-radius: 6px;
-                object-fit: cover;
-            }
+        &__cover {
+            width: 246px;
+            height: 180px;
+            border-radius: 6px;
+            object-fit: cover;
         }
 
         &__title {
@@ -212,10 +213,12 @@ main {
             line-height: 44px;
             margin-bottom: 15px;
             opacity: 0.8;
-            &-inherit {
-                color: inherit;
-            }
         }
+        
+        &__inherit {
+            color: inherit;
+        }
+
         &__title:hover {
             opacity: 1;
             text-decoration: underline;
